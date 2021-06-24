@@ -169,7 +169,7 @@
 				TargetAttributes = {
 					97C146ED1CF9000F007C117D = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 525C33VELN;
+						DevelopmentTeam = G56CSJN8L9;
 						LastSwiftMigration = 0910;
 					};
 				};
@@ -252,19 +252,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh",
-				"${PODS_ROOT}/../.symlinks/flutter/ios/Flutter.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${PODS_ROOT}/../Flutter/Flutter.framework",
 				"${BUILT_PRODUCTS_DIR}/ZIPFoundation/ZIPFoundation.framework",
-				"${BUILT_PRODUCTS_DIR}/flutter_blue/flutter_blue.framework",
+				"${BUILT_PRODUCTS_DIR}/bluetooth_helper/bluetooth_helper.framework",
 				"${BUILT_PRODUCTS_DIR}/flutter_nordic_dfu/flutter_nordic_dfu.framework",
 				"${BUILT_PRODUCTS_DIR}/iOSDFULibrary/iOSDFULibrary.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZIPFoundation.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_blue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/bluetooth_helper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_nordic_dfu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSDFULibrary.framework",
 			);
@@ -374,7 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = 525C33VELN;
+				DEVELOPMENT_TEAM = G56CSJN8L9;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -387,7 +385,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.timeyaa.flutterNordicDfuExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhonglingyi.sensor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -502,7 +500,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = 525C33VELN;
+				DEVELOPMENT_TEAM = G56CSJN8L9;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -515,7 +513,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.timeyaa.flutterNordicDfuExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhonglingyi.sensor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -532,7 +530,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = 525C33VELN;
+				DEVELOPMENT_TEAM = G56CSJN8L9;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -545,7 +543,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.timeyaa.flutterNordicDfuExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhonglingyi.sensor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;

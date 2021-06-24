@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/flutter_phyp_dfu.iml" filepath="$PROJECT_DIR$/.idea/flutter_phyp_dfu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/flutter_nordic_dfu.iml" filepath="$PROJECT_DIR$/.idea/flutter_nordic_dfu.iml" />
     </modules>
   </component>
 </project>
