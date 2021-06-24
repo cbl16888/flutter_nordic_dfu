@@ -20,12 +20,12 @@ class _MyAppState extends State<MyApp> {
   String _commandReadWriteCharacter;
   bool _isConnected = false;
   bool _isOta = false;
-  var deviceName = "ZLY_2012080145693";
-  static const String serviceId = "00001523-39cb-4c61-a082-38bfd3717074";
+  var deviceName = "W03-C066";
+  static const String serviceId = "fff0";
   static const String commandReadNotifyCharactersId =
-      "00001526-39cb-4c61-a082-38bfd3717074";
+      "c2c9ff04-dbe1-41b5-b9fb-0a80281f70b2";
   static const String commandReadWriteCharactersId =
-      "00001525-39cb-4c61-a082-38bfd3717074";
+      "c2c9ff01-dbe1-41b5-b9fb-0a80281f70b2";
 
   @override
   void initState() {
@@ -44,7 +44,7 @@ class _MyAppState extends State<MyApp> {
     await _device?.disconnect();
     DebugLog.logDebug("开始搜索设备...");
     await BluetoothHelper.me
-        .scan(deviceName: deviceName, timeout: 10, serviceId: serviceId)
+        .scan(deviceName: null, timeout: 10, serviceId: null)
         .then((_scanResult) {
       for (var _item in _scanResult) {
         if (deviceName == _item.deviceName) {
@@ -84,7 +84,7 @@ class _MyAppState extends State<MyApp> {
           currentPart,
           partsTotal,
         ) {
-          DebugLog.logDebug('deviceAddress: $deviceAddress, percent: $percent');
+          DebugLog.logDebug('蓝牙Dfu: $deviceAddress, 进度: $percent');
         }),
       );
       _isOta = false;
